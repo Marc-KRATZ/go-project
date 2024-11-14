@@ -9,6 +9,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
+// je suis un test
 func setupRouter() *gin.Engine {
 
 	var loginService service.LoginService = service.NewLoginService()
